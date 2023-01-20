@@ -103,6 +103,8 @@ GEM
     method_source (1.0.0)
     mini_mime (1.1.2)
     minitest (5.17.0)
+    momentjs-rails (2.29.4.1)
+      railties (>= 3.1)
     msgpack (1.6.0)
     net-imap (0.3.4)
       date
@@ -188,6 +190,7 @@ DEPENDENCIES
   debug
   jbuilder
   jsbundling-rails
+  momentjs-rails
   puma (~> 5.0)
   rails (~> 7.0.4, >= 7.0.4.1)
   sprockets-rails
