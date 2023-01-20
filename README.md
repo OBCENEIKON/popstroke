@@ -31,3 +31,5 @@ bin/dev
 ```
 
 Now open http://localhost:3000 in a browser.
+
+* Notes: There is a lot of room for improvement especially considering that my React isn't my strongest language. Rails validation errors aren't reflected in the frontend either, ran out of time.
