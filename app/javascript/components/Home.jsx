@@ -1,6 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import Bookings from "./Bookings";
+import BookingsList from "./BookingsList";
 
 export default () => (
     <div className="vw-100 vh-100 primary-color d-flex align-items-center justify-content-center">
@@ -11,14 +10,7 @@ export default () => (
                     Tee off's are every 30 minutes from 8:00 AM to 4:00 PM
                 </p>
                 <hr className="my-4" />
-                <Bookings />
-                <Link
-                    to="/bookings"
-                    className="btn btn-lg custom-button"
-                    role="button"
-                >
-                    View Bookings
-                </Link>
+                <BookingsList />
             </div>
         </div>
     </div>
