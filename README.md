@@ -6,19 +6,28 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
+3.2.0
 
 * System dependencies
-
-* Configuration
+Bundler
+npm
+Rails
+yarn
+foreman
 
 * Database creation
+`rails db:create`
 
 * Database initialization
+`rails db:migrate`
 
-* How to run the test suite
+* Instructions
+After cloning this repository and switching to the directory it was cloned into, run the following:
+```
+bundle install
+yarn install
+rails db:create db:migrate
+bin/dev
+```
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Now open http://localhost:3000 in a browser.
